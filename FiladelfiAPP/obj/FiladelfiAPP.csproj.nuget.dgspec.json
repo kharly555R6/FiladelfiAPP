@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Escritorio\\FiladelfiAPP\\FiladelfiAPP\\FiladelfiAPP.csproj": {}
+    "C:\\Users\\carlo\\Desktop\\FiladelfiAPP\\FiladelfiAPP\\FiladelfiAPP.csproj": {}
   },
   "projects": {
-    "D:\\Escritorio\\FiladelfiAPP\\FiladelfiAPP\\FiladelfiAPP.csproj": {
+    "C:\\Users\\carlo\\Desktop\\FiladelfiAPP\\FiladelfiAPP\\FiladelfiAPP.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Escritorio\\FiladelfiAPP\\FiladelfiAPP\\FiladelfiAPP.csproj",
+        "projectUniqueName": "C:\\Users\\carlo\\Desktop\\FiladelfiAPP\\FiladelfiAPP\\FiladelfiAPP.csproj",
         "projectName": "FiladelfiAPP",
-        "projectPath": "D:\\Escritorio\\FiladelfiAPP\\FiladelfiAPP\\FiladelfiAPP.csproj",
-        "packagesPath": "C:\\Users\\Kharly\\.nuget\\packages\\",
-        "outputPath": "D:\\Escritorio\\FiladelfiAPP\\FiladelfiAPP\\obj\\",
+        "projectPath": "C:\\Users\\carlo\\Desktop\\FiladelfiAPP\\FiladelfiAPP\\FiladelfiAPP.csproj",
+        "packagesPath": "C:\\Users\\carlo\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\carlo\\Desktop\\FiladelfiAPP\\FiladelfiAPP\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Kharly\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "C:\\Users\\carlo\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net9.0"
@@ -57,13 +57,13 @@
             "Microsoft.NET.ILLink.Tasks": {
               "suppressParent": "All",
               "target": "Package",
-              "version": "[9.0.10, )",
+              "version": "[9.0.9, )",
               "autoReferenced": true
             },
             "Microsoft.NET.Sdk.WebAssembly.Pack": {
               "suppressParent": "All",
               "target": "Package",
-              "version": "[9.0.10, )",
+              "version": "[9.0.11, )",
               "autoReferenced": true
             }
           },
@@ -80,8 +80,12 @@
           "warn": true,
           "downloadDependencies": [
             {
+              "name": "Microsoft.NETCore.App.Ref",
+              "version": "[9.0.11, 9.0.11]"
+            },
+            {
               "name": "Microsoft.NETCore.App.Runtime.Mono.browser-wasm",
-              "version": "[9.0.10, 9.0.10]"
+              "version": "[9.0.11, 9.0.11]"
             }
           ],
           "frameworkReferences": {
@@ -89,7 +93,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.306/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.305/PortableRuntimeIdentifierGraph.json"
         }
       },
       "runtimes": {
